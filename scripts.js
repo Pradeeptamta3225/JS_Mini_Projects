@@ -18,3 +18,8 @@ const decrement = () => {
    countValue.innerText = value;
 }
 
+
+const reset = () =>{
+     value = 0;
+     countValue.innerText = value;
+}
