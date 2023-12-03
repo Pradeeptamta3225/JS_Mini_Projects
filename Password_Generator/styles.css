@@ -16,10 +16,13 @@ body {
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 }
 
-.container
+.container{
+    background-color: white;
+    border-radius: 0.8rem;
+}
 
 h1{
-    color: white;
+    color: black;
     opacity: 0.75;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -29,7 +32,7 @@ h1{
 
 .display-container{
     position: relative;
-    background-color: black;
+    background-color: rgb(196, 192, 192);
     border-radius: 1rem;
     border-bottom: 0.35rem solid violet;
     margin: 1rem 0;
