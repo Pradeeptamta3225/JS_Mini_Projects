@@ -17,6 +17,7 @@ body {
 }
 
 .container{
+    max-width: 500px;
     background-color: white;
     border-radius: 0.8rem;
 }
@@ -68,4 +69,46 @@ h1{
     position: absolute;
     top: 30%;
     right: 1.5rem;
+}
+
+.input-container{
+width: 100%;
+border-bottom: 0.35rem solid violet;
+
+}
+
+.length-container{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.length-container p:nth-child(1) {
+    font-size: 1.5rem;
+}
+
+.length-container p:nth-child(2) {
+    color: red;
+    font-size: 1.5rem;
+}
+
+.strength-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+
+}
+
+.strength-container p{
+    font-size: 1.5rem;
+}
+
+.indicator{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
 }
