@@ -93,7 +93,7 @@ async function copyContent() {
     catch(e) {
         copyMsg.innerText = "Failed";
     }
-    
+
     copyMsg.classList.add("active");
 
     setTimeout( () => {
