@@ -14,7 +14,7 @@ const allCheckBox = document.querySelectorAll("input[type=checkbox]");
 const symbols = '~`!@#$%^&*()_-+={[}]|:;"<,>.?/';
 
 
-//initially
+//starting
 let password = "";
 let passwordLength = 10;
 let checkCount = 0;
@@ -93,7 +93,7 @@ async function copyContent() {
     catch(e) {
         copyMsg.innerText = "Failed";
     }
-    //to make copy wala span visible
+    
     copyMsg.classList.add("active");
 
     setTimeout( () => {
