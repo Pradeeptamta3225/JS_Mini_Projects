@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 730px;
+    width: 100vw;
+    background-color: rgb(251, 248, 248);
+    position: relative;
+}
+
+.main{
+    position: absolute;
+    top: 90px;
+    left: 98px;
+    width: 1420px;
+    height: 550px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 50px;
+    
+}
+
+
+.main img{
+    position: absolute;
+    top: 80px;
+    left: 72px;
+}
+
+.description{
+    position: absolute;
+    top: 200px;
+    left: 72px;
+    width: 400px;
+    height: 300px;
+    /* line-height: 50px; */
+}
+
+.description p {
+    line-height: 40px;
+    font-size: 21px;
+    /* font-weight: 400; */
+
+}
+.description h3{
+    /* font-family: Söhne Test; */
+    font-size: 48px;
+}
+
+
+.email{
+    position: absolute;
+    top: 230px;
+    left: 700px;
+    width: 800px;
+}
+
+.email input{
+    width: 630px;
+    height: 60px;
+    padding-left: 30px;
+    color: #636363;
+    border-radius: 5px;
+}
+
+.email button{
+    position: absolute;
+    top: 85px;
+    left: 472px;
+        width: 157px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #000000;
+        color: #FFFFFF;
+        border: none;
+        font-size: 16px;
+        
+
+}
+
+
+.footer{
+    /* margin-top: -80px; */
+    height: 500px;
+    /* background-color: #000000; */
+    position: relative;
+}
+
+.icons{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 50;
+
+}
+
+
+.icons img{
+    /* position: absolute; */
+    width: 50px;
+    height: 50px;
+}
