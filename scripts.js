@@ -26,3 +26,5 @@ const reset = () =>{
 
 
 //Hello
+
+console.log(..."Pradeeep");
