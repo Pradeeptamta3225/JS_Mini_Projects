@@ -31,15 +31,20 @@
 
 
 
-console.log(NaN === NaN);
+// console.log(NaN === NaN);
 
-console.log(2 + [2] + ({} + []));
-
-
-console.log(2 * 3 ** 2);
-
-console.log(Math.min());
-console.log(true + {});
+// console.log(2 + [2] + ({} + []));
 
 
-console.log(1 + [2,3,6,7] + [4,5,6]);
+// console.log(2 * 3 ** 2);
+
+// console.log(Math.min());
+// console.log(true + {});
+
+
+// console.log(1 + [2,3,6,7] + [4,5,6]);
+
+
+console.log(2 + true + 2);
+
+console.log(10 > 9 > 8);
