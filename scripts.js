@@ -48,3 +48,7 @@
 console.log(2 + true + 2);
 
 console.log(10 > 9 > 8);
+
+console.log('10' / '2');
+
+console.log(+ true);
