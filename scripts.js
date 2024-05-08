@@ -52,3 +52,5 @@ console.log(10 > 9 > 8);
 console.log('10' / '2');
 
 console.log(+ true);
+
+console.log(Boolean([]+ {}));
