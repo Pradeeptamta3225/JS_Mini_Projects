@@ -54,3 +54,5 @@ console.log('10' / '2');
 console.log(+ true);
 
 console.log(Boolean([]+ {}));
+
+console.log(Math.random());
