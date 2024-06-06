@@ -55,4 +55,5 @@ console.log(+ true);
 
 console.log(Boolean([]+ {}));
 
-console.log(Math.random());
+console.log(math.floor(Math.random()));
+
