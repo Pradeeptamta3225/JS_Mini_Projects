@@ -57,3 +57,5 @@ console.log(Boolean([]+ {}));
 
 console.log(math.floor(Math.random()));
 
+
+console.log(2 + 2)
