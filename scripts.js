@@ -59,3 +59,5 @@ console.log(math.floor(Math.random()));
 
 
 console.log(2 + 2)
+
+console.log(2/2);
